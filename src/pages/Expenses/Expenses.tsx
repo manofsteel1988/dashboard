@@ -118,7 +118,11 @@ export default function Expenses() {
             <div className={styles.expensesOverviewHeader}>
               <p className={styles.expensesOverviewTitle}>Today</p>
               <button className={styles.expensesActions}>
-                <img src={optionIcon} alt="optionIcon" />
+                <img
+                  className={styles.expensesOption}
+                  src={optionIcon}
+                  alt="optionIcon"
+                />
               </button>
             </div>
 
@@ -143,9 +147,67 @@ export default function Expenses() {
                       </p>
                     </div>
                   </div>
-                  <p className={styles.expenseItemPrice}>{expenses.price}</p>
+                  <p className={styles.expenseItemPrice}>
+                    {expenses.price.toFixed(2)}
+                  </p>
                 </li>
               ))}
+            </ul>
+
+            <div className={styles.expensesOverviewHeader}>
+              <p className={styles.expensesOverviewTitle}>
+                Monday, 23 March 2020
+              </p>
+              <button className={styles.expensesActions}>
+                <img
+                  className={styles.expensesOption}
+                  src={optionIcon}
+                  alt="optionIcon"
+                />
+              </button>
+            </div>
+
+            <ul>
+              {previousExpenses.map((expenses) => (
+                <li key={expenses.id} className={styles.expenseItem}>
+                  <div className={styles.expenseItemsLeft}>
+                    <div
+                      style={{
+                        backgroundColor: `${expenses.iconBackgroundColor}`,
+                      }}
+                      className={styles.expenseItemDiv}
+                    >
+                      <img src={expenses.icon} alt="cart" />
+                    </div>
+                    <div className={styles.expenseItemDetails}>
+                      <p className={styles.expenseItemTitle}>
+                        {expenses.expense}
+                      </p>
+                      <p className={styles.expenseItemTime}>
+                        {expenses.time} • {expenses.location}
+                      </p>
+                    </div>
+                  </div>
+                  <p className={styles.expenseItemPrice}>
+                    {expenses.price.toFixed(2)}
+                  </p>
+                </li>
+              ))}
+            </ul>
+          </section>
+          <section className={styles.moneyOverview}>
+            <p className={styles.moneyOverviewTitle}>Where your money go?</p>
+
+            <ul>
+              <li>
+                <div className={styles.spendCategory}>
+                  <p className={styles.spendCategoryName}>Food and Drinks</p>
+                  <p className={styles.spendCategoryPrice}>872.40</p>
+                </div>
+                <div className={styles.spendCategoryBar}>
+                  <div className={styles.spendCategoryColoredBar}></div>
+                </div>
+              </li>
             </ul>
           </section>
         </div>

@@ -16,10 +16,12 @@
   width: 95%;
   height: 95%;
   border-radius: 30px;
+
+  display: flex;
 }
 
 .expensesOverview {
-  width: 65%;
+  width: 55%;
   padding: 5rem;
 }
 
@@ -29,7 +31,7 @@
 }
 
 .expensesTitle {
-  font-size: 40px;
+  font-size: 20px;
   font-weight: 600;
 }
 
@@ -76,8 +78,13 @@
 }
 
 .expensesOverviewTitle {
-  font-size: 18px;
+  font-size: 9px;
   font-weight: 600;
+}
+
+.expensesOption {
+  font-size: 7px;
+  cursor: pointer;
 }
 
 .expenseItem {
@@ -94,8 +101,8 @@
 }
 
 .expenseItemDiv {
-  width: 48px;
-  height: 48px;
+  width: 28px;
+  height: 28px;
   border-radius: 50%;
 
   display: flex;
@@ -109,14 +116,56 @@
 
 .expenseItemTitle {
   margin-bottom: 0.5rem;
+  font-size: 7px;
 }
 
 .expenseItemTime {
   font-weight: 500;
-  font-size: 14px;
+  font-size: 7px;
   opacity: 0.5;
 }
 
 .expenseItemPrice {
   font-weight: 500;
+  font-size: 7px;
+}
+
+.moneyOverview {
+  width: 35%;
+  background-color: #f9fafc;
+  border-radius: 0 50px 50px 0;
+  padding: 5rem 2rem;
+}
+
+.moneyOverviewTitle {
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 3rem;
+}
+
+.spendCategory {
+  display: flex;
+  justify-content: space-between;
+}
+
+.spendCategoryName {
+  font-weight: 500;
+}
+
+.spendCategoryBar {
+  height: 5px;
+  width: 100%;
+  background-color: #eceff5;
+  position: relative;
+  border-radius: 5px;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+.spendCategoryColoredBar {
+  height: 5px;
+  width: 10%;
+  background-color: #31ba96;
+  position: absolute;
+  border-radius: 5px;
 }

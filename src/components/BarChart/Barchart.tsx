@@ -136,7 +136,7 @@ export default function Barchart() {
   const onMouseOver = (data: any, index: number) => setActiveIndex(index);
   return (
     <>
-      <ResponsiveContainer width="100%" minHeight="9vh">
+      <ResponsiveContainer width="100%" height="9%">
         <BarChart width={150} height={40} data={data}>
           <Bar
             dataKey="uv"
