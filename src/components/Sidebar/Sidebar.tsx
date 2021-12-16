@@ -1,4 +1,4 @@
-import styles from "../Sidebar/Sidebar.module.scss";
+import styles from "./Sidebar.module.scss";
 import samanthaImg from "../../assets/png/samantha.png";
 import { Link, useLocation } from "react-router-dom";
 
