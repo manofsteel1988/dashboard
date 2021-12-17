@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/dashboard/static/css/main.4ad8339d.chunk.css",
+    "main.js": "/dashboard/static/js/main.8914f9e5.chunk.js",
+    "main.js.map": "/dashboard/static/js/main.8914f9e5.chunk.js.map",
+    "runtime-main.js": "/dashboard/static/js/runtime-main.619f50b7.js",
+    "runtime-main.js.map": "/dashboard/static/js/runtime-main.619f50b7.js.map",
+    "static/js/2.60284f49.chunk.js": "/dashboard/static/js/2.60284f49.chunk.js",
+    "static/js/2.60284f49.chunk.js.map": "/dashboard/static/js/2.60284f49.chunk.js.map",
+    "index.html": "/dashboard/index.html",
+    "static/css/main.4ad8339d.chunk.css.map": "/dashboard/static/css/main.4ad8339d.chunk.css.map",
+    "static/js/2.60284f49.chunk.js.LICENSE.txt": "/dashboard/static/js/2.60284f49.chunk.js.LICENSE.txt",
+    "static/media/cartIcon.04714697.svg": "/dashboard/static/media/cartIcon.04714697.svg",
+    "static/media/houseIcon.da02fe38.svg": "/dashboard/static/media/houseIcon.da02fe38.svg",
+    "static/media/transportIcon.442d2bdd.svg": "/dashboard/static/media/transportIcon.442d2bdd.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.619f50b7.js",
+    "static/js/2.60284f49.chunk.js",
+    "static/css/main.4ad8339d.chunk.css",
+    "static/js/main.8914f9e5.chunk.js"
+  ]
+}
